@@ -1,0 +1,38 @@
+# Terraform Commands
+terraform init
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+terraform output
+terraform state list
+terraform destroy
+
+# Docker Commands
+docker --version
+docker images
+docker ps
+docker ps -a
+docker build -t harish-app .
+docker run -d --name harish-app -p 80:80 harish-app
+docker logs harish-app
+docker stop harish-app
+docker start harish-app
+
+# Jenkins Docker Commands
+docker ps | grep myjenkins
+docker logs myjenkins
+docker exec myjenkins docker --version
+
+# Git Commands
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote -v
+git push origin main
+
+# AWS Commands
+aws sts get-caller-identity
+aws ec2 describe-instances
